@@ -1,0 +1,72 @@
+/*css styling file*/
+body {
+  background-image:url(bkg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .poster {
+    margin-top:0px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .poster img {
+    width: 30px;
+    height: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .poster::after {
+    content: 'Money Heist';
+    position: absolute;
+    top:5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .poster::before {
+    content: 'LA CASA DE PAPEL';
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: red;
+  }
+  
+  
+  .details {
+    margin-top: 20px;
+  }
+  
+  .details p {
+    margin: 5px 0;
+  }
+  
